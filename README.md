@@ -20,7 +20,7 @@ Android万能刷新加载框架，适用于所有View，可根据自己需求定
 ## 使用方法
 具体使用方法以ListView为例，用法基本上都一样，很简单！
 
-#### 布局文件声明
+### 布局文件声明
     <com.chenzhi.refresh.PullToRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/refresh_view"
         android:layout_width="match_parent"
@@ -40,10 +40,10 @@ Android万能刷新加载框架，适用于所有View，可根据自己需求定
 
     </com.chenzhi.refresh.PullToRefreshLayout>
     
-#### 代码使用
+### 代码使用
 ##### 查找刷新控件
     mRefreshView = findViewById(R.id.refresh_view); 
-#####设置监听
+##### 设置监听
      mRefreshView.setOnRefreshListener(this);
     
 ##### 实现接口
