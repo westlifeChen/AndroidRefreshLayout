@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/loadmore_view"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:background="#ccc"
+    android:orientation="horizontal">
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <com.wang.avi.AVLoadingIndicatorView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginRight="20dp"
+        app:indicatorColor="@color/colorAccent"
+        app:indicatorName="LineScaleIndicator" />
+
+    <TextView
+        android:id="@+id/state_tv"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="40dp"
+        android:text="@string/pull_to_refresh"
+        android:textColor="#000"
+        android:textSize="16sp" />
+
+</LinearLayout>

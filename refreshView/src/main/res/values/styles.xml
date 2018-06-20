@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextViewStyleLeft">
+        <item name="android:layout_width">@dimen/leftWidth</item>
+        <item name="android:layout_height">40dip</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+
+    <style name="TextViewStyleRight">
+        <item name="android:layout_width">@dimen/rightItemWidth</item>
+        <item name="android:layout_height">40dip</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+</resources>

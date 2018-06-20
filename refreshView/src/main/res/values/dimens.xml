@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="leftWidth">120dip</dimen>
+    <dimen name="rightItemWidth">100dip</dimen>
+
+</resources>

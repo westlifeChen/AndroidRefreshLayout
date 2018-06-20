@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="172dp"
+        android:scaleType="centerCrop"
+        android:background="@mipmap/master_04" />
+
+
+    <!--软件icon简介-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="98.67dp"
+        android:background="@android:color/white"
+        android:orientation="horizontal"
+        android:padding="13.33dp">
+
+        <ImageView
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/ic_launcher" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="13.33dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="暴走小飞机"
+                android:textColor="#343434"
+                android:textSize="15.4dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="★★★★★"
+                    android:textColor="#ffff903f"
+                    android:textSize="11.4dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="8.6"
+                    android:textColor="#343434"
+                    android:textSize="11.4dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="93.6MB"
+                    android:textColor="#a5a5a5"
+                    android:textSize="11.4dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:text="90万+次"
+                    android:textColor="#a5a5a5"
+                    android:textSize="11.4dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="6.67dp"
+        android:background="#f6f7fa" />
+
+    <!--软件验证标签-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="46.46dp"
+        android:background="@android:color/white"
+        android:paddingLeft="13.33dp"
+        android:paddingRight="13.33dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="安全     官方     无广告"
+            android:textColor="#343434"
+            android:textSize="15.4dp" />
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <!--标签说明-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f6f7fa"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#eeeeee" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="13.33dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="已通过安智市场官方认证，是正版软件"
+                android:textColor="#a5a5a5"
+                android:textSize="11.4dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="已通过安智市场官方认证，是正版软件"
+                android:textColor="#a5a5a5"
+                android:textSize="11.4dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="已通过安智市场官方认证，是正版软件"
+                android:textColor="#a5a5a5"
+                android:textSize="11.4dp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#eeeeee" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="6.67dp"
+        android:background="#f6f7fa" />
+
+    <!--软件点评-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="43.33dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="13.33dp"
+            android:paddingRight="13.33dp"
+            android:text="安智君点评"
+            android:textColor="#343434"
+            android:textSize="15.4dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#eeeeee" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:lineSpacingExtra="10dp"
+            android:padding="13.33dp"
+            android:text="安智君点大家肯定好看大航空大航空大抠脚大汉刷卡机还打算科技等哈看好大胜靠德就好看哈数据库的哈克还是打接电话很快就安徽省科技的和大家都喊按时给大家评"
+            android:textColor="#a5a5a5"
+            android:textSize="12.9dp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="6.67dp"
+        android:background="#f6f7fa" />
+
+    <!--分类标签-->
+    <LinearLayout
+        android:id="@+id/tag_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:tag="azplg_azuc_exclusive_detail_fllow_ll_tag">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="43.33dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="13.33dp"
+            android:paddingRight="13.33dp"
+            android:text="分类标签"
+            android:textColor="#343434"
+            android:textSize="15.4dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#eeeeee" />
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="6.67dp"
+        android:background="#f6f7fa" />
+
+    <!--图片介绍-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="104dp"
+                    android:layout_height="173.33dp"
+                    android:layout_marginLeft="13.33dp"
+                    android:layout_marginTop="6.67dp"
+                    android:src="@mipmap/master_13" />
+
+                <ImageView
+                    android:layout_width="104dp"
+                    android:layout_height="173.33dp"
+                    android:layout_marginLeft="13.33dp"
+                    android:layout_marginTop="6.67dp"
+                    android:src="@mipmap/master_13" />
+
+                <ImageView
+                    android:layout_width="104dp"
+                    android:layout_height="173.33dp"
+                    android:layout_marginLeft="13.33dp"
+                    android:layout_marginTop="6.67dp"
+                    android:src="@mipmap/master_13" />
+
+                <ImageView
+                    android:layout_width="104dp"
+                    android:layout_height="173.33dp"
+                    android:layout_marginLeft="13.33dp"
+                    android:layout_marginTop="6.67dp"
+                    android:src="@mipmap/master_13" />
+
+                <ImageView
+                    android:layout_width="104dp"
+                    android:layout_height="173.33dp"
+                    android:layout_marginLeft="13.33dp"
+                    android:layout_marginTop="6.67dp"
+                    android:src="@mipmap/master_13" />
+
+                <ImageView
+                    android:layout_width="104dp"
+                    android:layout_height="173.33dp"
+                    android:layout_marginLeft="13.33dp"
+                    android:layout_marginTop="6.67dp"
+                    android:src="@mipmap/master_13" />
+
+                <ImageView
+                    android:layout_width="104dp"
+                    android:layout_height="173.33dp"
+                    android:layout_marginLeft="13.33dp"
+                    android:layout_marginTop="6.67dp"
+                    android:src="@mipmap/master_13" />
+
+                <ImageView
+                    android:layout_width="104dp"
+                    android:layout_height="173.33dp"
+                    android:layout_marginLeft="13.33dp"
+                    android:layout_marginTop="6.67dp"
+                    android:src="@mipmap/master_13" />
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:layout_marginLeft="13.33dp"
+            android:layout_marginTop="13.33dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="版本：1.2.0"
+                android:textColor="#a5a5a5"
+                android:textSize="12.9dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="版本：1.2.0"
+                android:textColor="#a5a5a5"
+                android:textSize="12.9dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="13.33dp"
+            android:layout_marginLeft="13.33dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="版本：1.2.0"
+                android:textColor="#a5a5a5"
+                android:textSize="12.9dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="版本：1.2.0"
+                android:textColor="#a5a5a5"
+                android:textSize="12.9dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="6.67dp"
+        android:background="#f6f7fa" />
+
+    <!--更新说明-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="43.33dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="13.33dp"
+            android:paddingRight="13.33dp"
+            android:text="更新说明"
+            android:textColor="#343434"
+            android:textSize="15.4dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#eeeeee" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:lineSpacingExtra="10dp"
+            android:paddingLeft="13.33dp"
+            android:paddingRight="13.33dp"
+            android:paddingTop="13.33dp"
+            android:text="安智君点大家肯定好看大航空大航空大抠脚大汉刷卡机还打算科技等哈看好大胜靠德就好看哈数据库的哈克还是打接电话很快就安徽省科技的和大家都喊按时给大家评"
+            android:textColor="#a5a5a5"
+            android:textSize="12.9dp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="6.67dp"
+        android:background="#f6f7fa" />
+
+    <!--简介-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="43.33dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="13.33dp"
+            android:paddingRight="13.33dp"
+            android:text="简介"
+            android:textColor="#343434"
+            android:textSize="15.4dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#eeeeee" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:lineSpacingExtra="10dp"
+            android:paddingLeft="13.33dp"
+            android:paddingRight="13.33dp"
+            android:paddingTop="13.33dp"
+            android:text="安智君点大家肯定好看大航空大航空大抠脚大汉刷卡机还打算科技等哈看好大胜靠德就好看哈数据库的哈克还是打接电话很快就安徽省科技的和大家都喊按时给大家评"
+            android:textColor="#a5a5a5"
+            android:textSize="12.9dp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="6.67dp"
+        android:background="#f6f7fa" />
+
+</LinearLayout>
