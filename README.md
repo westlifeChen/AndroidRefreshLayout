@@ -8,8 +8,9 @@ Android万能刷新加载框架，适用于所有View，可根据自己需求定
         <td><img src="/screenshots/demo1.png"></td>
         <td><img src="/screenshots/expandable.gif"></td>
         <td><img src="/screenshots/grid.gif"></td>
-        
     </tr>
+</table>
+<table>
     <tr>
         <td><img src="/screenshots/3image.gif"></td>
         <td><img src="/screenshots/web.gif"></td>
