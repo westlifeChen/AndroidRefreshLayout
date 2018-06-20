@@ -44,11 +44,10 @@ Android万能刷新加载框架，适用于所有View，可根据自己需求定
  查找刷新控件
     mRefreshView = findViewById(R.id.refresh_view);
  设置监听
-    mRefreshView.setOnRefreshListener(this);
+     mRefreshView.setOnRefreshListener(this);
     
  实现接口
     public class ListViewActivity extends AppCompatActivity implements PullToRefreshLayout.OnRefreshListener{
-    
  覆写回调方法
     @Override
     public void onRefresh(final PullToRefreshLayout pullToRefreshLayout) {
